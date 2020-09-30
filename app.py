@@ -27,10 +27,10 @@ app.layout = html.Div(style={"textAlign" : "center", 'width':'80%', 'paddingLeft
         children='A Dash web-app to visualize data.',
         style={'textAlign':'center'}
     ),
-    html.H5(
-        children='Call structure is check-list to data table, and check-list to Graph. Graph is daisy-chained with data table.',
-        style={'textAlign':'center'}
-    ),
+    #html.H5(
+    #    children='Call structure is check-list to data table, and check-list to Graph. Graph is daisy-chained with data table.',
+    #    style={'textAlign':'center'}
+    #),
     html.Hr(),
     dcc.Checklist(
         id='item-selector',
