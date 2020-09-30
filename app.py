@@ -28,7 +28,7 @@ app.layout = html.Div(style={"textAlign" : "center", 'width':'80%', 'paddingLeft
         style={'textAlign':'center'}
     ),
     html.H5(
-        children='Call structure is check-list to data table, and check-list to Graph. Graph is not daisy-chained with data table.',
+        children='Call structure is check-list to data table, and check-list to Graph. Graph is daisy-chained with data table.',
         style={'textAlign':'center'}
     ),
     html.Hr(),
