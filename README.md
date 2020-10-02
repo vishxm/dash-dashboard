@@ -23,5 +23,7 @@ Whatever changes are made to the data table using either filters or the checklis
 * Better UI.
 * Adding a bootstrap theme.
 
+## Author : [Vishwas Modhera](https://www.linkedin.com/in/vishwas-modhera-a9b292162/)
+
 # Thank you!
 
