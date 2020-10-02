@@ -9,9 +9,10 @@ This requires the framework _Dash_ and its libraries and dependencies. It also r
 ## Deployment 
 App has been deployed on [Heroku](https://bq-test-4.herokuapp.com/). Procfile has been uploaded with it. It has been deployed in United State servers (because it doesn't have servers in India) so the callbacks may take _few hundred milliseconds_.
 ## Layout 
-![Layout of the application](https://raw.githubusercontent.com/vishxm/dash-table-app/master/layout.png)
+![Layout of the application](https://raw.githubusercontent.com/vishxm/dash-dashboard/master/layout1.png)
+![Layout of the application](https://raw.githubusercontent.com/vishxm/dash-dashboard/master/layout2.png)
 ## Callback flow-graph
-![Callback](https://raw.githubusercontent.com/vishxm/bq-test-1/master/callback.png)
+![Callback](https://raw.githubusercontent.com/vishxm/dash-dashboard/master/callback.png)
 Here, the _item-selector_ is the id of checklist component. Whatever changes are made to that checklist, they are reflected in _data-table_ (the Dash data table) and _table-graph_ (the lineplot of the data table).
 Whatever changes are made to the data table using either filters or the checklist, the changes are also reflected in the lineplot!
 
